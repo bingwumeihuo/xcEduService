@@ -1,6 +1,6 @@
 package com.yixin.edu.model.order.request;
 
-import com.xuecheng.framework.model.request.RequestData;
+import com.yixin.edu.common.model.request.RequestData;
 import lombok.Data;
 
 /**

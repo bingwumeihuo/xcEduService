@@ -1,8 +1,8 @@
 package com.yixin.edu.model.media.response;
 
-import com.xuecheng.framework.domain.media.MediaFile;
-import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.framework.model.response.ResultCode;
+import com.yixin.edu.common.model.response.ResponseResult;
+import com.yixin.edu.common.model.response.ResultCode;
+import com.yixin.edu.model.media.MediaFile;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

@@ -1,6 +1,6 @@
 package com.yixin.edu.model.course.ext;
 
-import com.xuecheng.framework.domain.course.Category;
+import com.yixin.edu.model.course.Category;
 import lombok.Data;
 import lombok.ToString;
 

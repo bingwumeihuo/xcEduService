@@ -1,7 +1,7 @@
 package com.yixin.edu.model.cms.response;
 
-import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.framework.model.response.ResultCode;
+import com.yixin.edu.common.model.response.ResponseResult;
+import com.yixin.edu.common.model.response.ResultCode;
 import lombok.Data;
 
 /**

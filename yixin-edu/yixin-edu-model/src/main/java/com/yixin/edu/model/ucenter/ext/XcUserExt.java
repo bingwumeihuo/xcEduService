@@ -1,7 +1,6 @@
 package com.yixin.edu.model.ucenter.ext;
-
-import com.xuecheng.framework.domain.ucenter.XcMenu;
-import com.xuecheng.framework.domain.ucenter.XcUser;
+import com.yixin.edu.model.ucenter.XcMenu;
+import com.yixin.edu.model.ucenter.XcUser;
 import lombok.Data;
 import lombok.ToString;
 

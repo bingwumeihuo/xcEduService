@@ -1,6 +1,6 @@
 package com.yixin.edu.model.cms.ext;
 
-import com.xuecheng.framework.domain.cms.CmsPage;
+import com.yixin.edu.model.cms.CmsPage;
 import lombok.Data;
 import lombok.ToString;
 

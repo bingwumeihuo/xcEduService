@@ -1,8 +1,8 @@
 package com.yixin.edu.model.order.response;
 
-import com.xuecheng.framework.domain.order.XcOrders;
-import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.framework.model.response.ResultCode;
+import com.yixin.edu.common.model.response.ResponseResult;
+import com.yixin.edu.common.model.response.ResultCode;
+import com.yixin.edu.model.order.XcOrders;
 import lombok.Data;
 import lombok.ToString;
 

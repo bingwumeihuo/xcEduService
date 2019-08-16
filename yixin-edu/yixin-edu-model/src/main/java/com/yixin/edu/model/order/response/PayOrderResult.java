@@ -1,8 +1,8 @@
 package com.yixin.edu.model.order.response;
 
-import com.xuecheng.framework.domain.order.XcOrdersPay;
-import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.framework.model.response.ResultCode;
+import com.yixin.edu.common.model.response.ResponseResult;
+import com.yixin.edu.common.model.response.ResultCode;
+import com.yixin.edu.model.order.XcOrdersPay;
 import lombok.Data;
 import lombok.ToString;
 
@@ -15,7 +15,7 @@ public class PayOrderResult extends ResponseResult {
     public PayOrderResult(ResultCode resultCode) {
         super(resultCode);
     }
-    public PayOrderResult(ResultCode resultCode,XcOrdersPay xcOrdersPay) {
+    public PayOrderResult(ResultCode resultCode, XcOrdersPay xcOrdersPay) {
         super(resultCode);
         this.xcOrdersPay = xcOrdersPay;
     }

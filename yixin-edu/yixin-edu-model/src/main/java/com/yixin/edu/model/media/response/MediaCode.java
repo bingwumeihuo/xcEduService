@@ -1,7 +1,7 @@
 package com.yixin.edu.model.media.response;
 
 import com.google.common.collect.ImmutableMap;
-import com.xuecheng.framework.model.response.ResultCode;
+import com.yixin.edu.common.model.response.ResultCode;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.ToString;
 

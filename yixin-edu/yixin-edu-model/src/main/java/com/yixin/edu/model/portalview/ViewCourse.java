@@ -1,10 +1,10 @@
 package com.yixin.edu.model.portalview;
 
-import com.xuecheng.framework.domain.course.CourseBase;
-import com.xuecheng.framework.domain.course.CourseMarket;
-import com.xuecheng.framework.domain.course.CoursePic;
-import com.xuecheng.framework.domain.course.ext.TeachplanNode;
-import com.xuecheng.framework.domain.report.ReportCourse;
+import com.yixin.edu.model.course.CourseBase;
+import com.yixin.edu.model.course.CourseMarket;
+import com.yixin.edu.model.course.CoursePic;
+import com.yixin.edu.model.course.ext.TeachplanNode;
+import com.yixin.edu.model.report.ReportCourse;
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;

@@ -1,8 +1,8 @@
 package com.yixin.edu.model.cms.response;
 
-import com.xuecheng.framework.domain.cms.CmsPage;
-import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.framework.model.response.ResultCode;
+import com.yixin.edu.common.model.response.ResponseResult;
+import com.yixin.edu.common.model.response.ResultCode;
+import com.yixin.edu.model.cms.CmsPage;
 import lombok.Data;
 
 /**
@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 public class CmsPageResult extends ResponseResult {
     CmsPage cmsPage;
-    public CmsPageResult(ResultCode resultCode,CmsPage cmsPage) {
+    public CmsPageResult(ResultCode resultCode, CmsPage cmsPage) {
         super(resultCode);
         this.cmsPage = cmsPage;
     }
