@@ -2,7 +2,7 @@ server:
   port: 9001
 spring:
   application:
-    name: xc-service-manage-cms
+    name: yixin-edu-manage
   data:
     mongodb:
       host: 106.13.49.215
