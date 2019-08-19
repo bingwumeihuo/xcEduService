@@ -69,10 +69,10 @@ public class PageService {
             size = 10;
         }
         Pageable pageable = PageRequest.of(page,size);
-        Page<CmsPage> all = cmsPageRepository.findAll(example,pageable);//实现自定义条件查询并且分页查询
+        Page<CmsPage> all = cmsPageRepository.findAll(example,pageable);
         QueryResult queryResult = new QueryResult();
-        queryResult.setList(all.getContent());//数据列表
-        queryResult.setTotal(all.getTotalElements());//数据总记录数
+        queryResult.setList(all.getContent());
+        queryResult.setTotal(all.getTotalElements());
         QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS,queryResult);
         return queryResponseResult;
     }
@@ -90,13 +90,12 @@ public class PageService {
         }
         //添加失败
         return new CmsPageResult(CommonCode.FAIL,null);
-
     }*/
     //新增页面
     public CmsPageResult add(CmsPage cmsPage) {
         if(cmsPage == null){
             //抛出异常，非法参数异常..指定异常信息的内容
-
+           ExceptionCast.cast(CmsCode.CMS_ILLEGAL_REQUESTS);
         }
         //校验页面名称、站点Id、页面webpath的唯一性
         //根据页面名称、站点Id、页面webpath去cms_page集合，如果查到说明此页面已经存在，如果查询不到再继续添加
@@ -148,10 +147,7 @@ public class PageService {
         }
         //修改失败
         return new CmsPageResult(CommonCode.FAIL,null);
-
     }
-
-    //根据id删除页面
     public ResponseResult delete(String id){
         //先查询一下
         Optional<CmsPage> optional = cmsPageRepository.findById(id);

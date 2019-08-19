@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 /**
  * @author Administrator
  * @version 1.0
- * @create 2018-09-12 17:24
  **/
 @RestController
 @RequestMapping("/cms/page")
@@ -55,7 +54,7 @@ public class CmsPageController implements CmsPageControllerApi {
     }
 
     @Override
-    @PutMapping("/edit/{id}")//这里使用put方法，http 方法中put表示更新
+    @PutMapping("/edit/{id}")
     public CmsPageResult edit(@PathVariable("id")String id, @RequestBody CmsPage cmsPage) {
         return pageService.update(id,cmsPage);
     }
