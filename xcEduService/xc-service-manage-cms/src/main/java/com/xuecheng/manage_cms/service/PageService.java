@@ -20,7 +20,6 @@ import java.util.Optional;
 /**
  * @author Administrator
  * @version 1.0
- * @create 2018-09-12 18:32
  **/
 @Service
 public class PageService {
@@ -112,7 +111,7 @@ public class PageService {
         return new CmsPageResult(CommonCode.SUCCESS,cmsPage);
 
     }
-    //根据页面id查询页面
+
     public CmsPage getById(String id){
         Optional<CmsPage> optional = cmsPageRepository.findById(id);
         if(optional.isPresent()){
